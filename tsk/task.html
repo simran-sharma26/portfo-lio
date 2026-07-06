@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio & Product Listing</title>
+    <link rel="stylesheet" href="task.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#todo">To-Do</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span>Simran Sharma</span></h1>
+            <p>Web Developer | Java Programmer | Tech Enthusiast</p>
+            <button>Download Resume</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Computer Science student interested in
+            Web Development, Java Programming, and Software Development.
+            I enjoy building creative and responsive web applications.
+        </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+
+        <div class="project-container">
+
+            <div class="project-card">
+                <i class="fas fa-globe"></i>
+                <h3>Portfolio Website</h3>
+                <p>
+                    A responsive personal portfolio showcasing skills,
+                    projects, and achievements.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <i class="fas fa-list-check"></i>
+                <h3>To-Do List</h3>
+                <p>
+                    Task management application using Local Storage.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <i class="fas fa-cart-shopping"></i>
+                <h3>Product Listing Page</h3>
+                <p>
+                    Product catalog with search and filtering features.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Todo Section -->
+    <section id="todo" class="todo-section">
+        <h2>To-Do List</h2>
+
+        <div class="todo-container">
+            <input type="text" id="taskInput" placeholder="Enter a task...">
+            <button id="addTaskBtn">Add Task</button>
+
+            <ul id="taskList"></ul>
+        </div>
+    </section>
+
+    <!-- Product Listing Section -->
+    <section id="products" class="products">
+        <h2>Featured Products</h2>
+
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Search Products...">
+        </div>
+
+        <div class="product-container" id="productContainer">
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Product">
+                <h3>Wireless Headphones</h3>
+                <p>₹1,999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Product">
+                <h3>Smart Watch</h3>
+                <p>₹2,499</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Product">
+                <h3>Gaming Mouse</h3>
+                <p>₹999</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x180" alt="Product">
+                <h3>Bluetooth Speaker</h3>
+                <p>₹1,499</p>
+                <button>Buy Now</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Amaira Sharma | All Rights Reserved</p>
+    </footer>
+
+    <script src="task.js"></script>
+
+</body>
+</html>
